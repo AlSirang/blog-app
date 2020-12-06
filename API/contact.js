@@ -1,6 +1,6 @@
 const express = require("express");
 
-const contactContent = "My contact is 404";
+const contactContent = "Github";
 
 const contactRouter = express.Router();
 contactRouter.get("/", (req, res) => {

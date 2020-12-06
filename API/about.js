@@ -1,6 +1,6 @@
 const express = require("express");
 
-const aboutContent = "I dont know anything about me. lol";
+const aboutContent = "My name is Bashir Uddin. I am a software engineering student.";
 
 const aboutRouter = express.Router();
 aboutRouter.get('/', (req, res)=>{
