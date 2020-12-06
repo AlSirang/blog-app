@@ -6,10 +6,7 @@
 
 <% posts.forEach(post => { %> <% const link= post._id; %>
 <h1><%= post.title%></h1>
-<h1><%= post._id%></h1>
-
 <p>
-  
   <%= post.content.substring(0,100) + '....' %>
   <a href="/posts/<%=link%>">Read More</a>
 </p>
