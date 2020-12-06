@@ -8,7 +8,7 @@ Download or clone this app on your machine. Goto the location where you saved or
 In your local repository open terminal and type npm i or npm install to install the required libraries.
 
 ## npm start
-After installing required libraries, type npm start to run the project locally at http://localhost:3000.
+After installing required libraries, run mongod on your machine for mongoDB and type npm start to run the project locally at http://localhost:3000.
 
 # How to post a blog?
 To post a blog you need to navigate to compose page. You can goto compose page by pressing ctrl + Q. 
