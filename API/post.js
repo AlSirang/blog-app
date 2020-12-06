@@ -10,7 +10,6 @@ postRouter.get("/:postId", (req, res) => {
 
   Blog.findOne({ _id: requestedPost }, (err, foundPost) => {
     if (!err) {
-      console.log(Boolean(foundPost));
       if (foundPost) {
         return res.render("post", { blog: foundPost });
       }
@@ -18,7 +17,7 @@ postRouter.get("/:postId", (req, res) => {
         // if no blogs found
         res.render("not-found");
       }
-    } 
+    }
   });
 
 });
